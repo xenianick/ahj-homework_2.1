@@ -1,0 +1,21 @@
+:global(.field) {
+  display: flex;
+  flex-wrap: wrap;
+  width: 440px;
+  margin: 30px auto 0 auto;
+}
+
+:global(.cell) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: #cccacf;
+}
+
+:global(.icon) {
+  width: 50px;
+}
